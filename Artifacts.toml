@@ -1,0 +1,83 @@
+[[PulseAudio]]
+arch = "aarch64"
+git-tree-sha1 = "13ae077dd3f730a54655fee1d227ea3c8d97a3fd"
+libc = "glibc"
+os = "linux"
+
+    [[PulseAudio.download]]
+    sha256 = "38209bb1069f20570f26f43ac6353586d8a0535238656c891185f8ec7d8c463a"
+    url = "https://github.com/JuliaBinaryWrappers/PulseAudio_jll.jl/releases/download/PulseAudio-v14.2.0+0/PulseAudio.v14.2.0.aarch64-linux-gnu.tar.gz"
+[[PulseAudio]]
+arch = "aarch64"
+git-tree-sha1 = "49bf8d18b213e4f256712640fef7fc7caadf17f2"
+libc = "musl"
+os = "linux"
+
+    [[PulseAudio.download]]
+    sha256 = "5048360ee80bce328c5a424216bc092cf3086f92733addac5237a48beeb8fb61"
+    url = "https://github.com/JuliaBinaryWrappers/PulseAudio_jll.jl/releases/download/PulseAudio-v14.2.0+0/PulseAudio.v14.2.0.aarch64-linux-musl.tar.gz"
+[[PulseAudio]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "0614ff8f99665d7df83fa31fb26a4d8c87b05e8d"
+libc = "glibc"
+os = "linux"
+
+    [[PulseAudio.download]]
+    sha256 = "ccc6c5bb7ddf3c6b113b508e6b11a96eded034d590325657a81c2135423105be"
+    url = "https://github.com/JuliaBinaryWrappers/PulseAudio_jll.jl/releases/download/PulseAudio-v14.2.0+0/PulseAudio.v14.2.0.armv7l-linux-gnueabihf.tar.gz"
+[[PulseAudio]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "bf50effc2d400d44bfc55368ec8a34f588af928b"
+libc = "musl"
+os = "linux"
+
+    [[PulseAudio.download]]
+    sha256 = "644b0a613896a68c3a1855d8e6f3545702e428dccd455c2f186a4c2659a577c8"
+    url = "https://github.com/JuliaBinaryWrappers/PulseAudio_jll.jl/releases/download/PulseAudio-v14.2.0+0/PulseAudio.v14.2.0.armv7l-linux-musleabihf.tar.gz"
+[[PulseAudio]]
+arch = "i686"
+git-tree-sha1 = "9d5c4a7c9c0f67a074cbc588c58009d1e2af215a"
+libc = "glibc"
+os = "linux"
+
+    [[PulseAudio.download]]
+    sha256 = "0a703133f945c8d8724928d57959ed0684191521cc5a4f2713f1cf3fa67ee564"
+    url = "https://github.com/JuliaBinaryWrappers/PulseAudio_jll.jl/releases/download/PulseAudio-v14.2.0+0/PulseAudio.v14.2.0.i686-linux-gnu.tar.gz"
+[[PulseAudio]]
+arch = "i686"
+git-tree-sha1 = "64de33387fbc5a27ea735177d3b281d6e7c895bb"
+libc = "musl"
+os = "linux"
+
+    [[PulseAudio.download]]
+    sha256 = "1789f22db4f8697ba08d22b311141c7c03efdf2a9e30b05a945e656f8a6a1d02"
+    url = "https://github.com/JuliaBinaryWrappers/PulseAudio_jll.jl/releases/download/PulseAudio-v14.2.0+0/PulseAudio.v14.2.0.i686-linux-musl.tar.gz"
+[[PulseAudio]]
+arch = "powerpc64le"
+git-tree-sha1 = "a5b122b82cf2565a253106a37371d2fe9fb60b40"
+libc = "glibc"
+os = "linux"
+
+    [[PulseAudio.download]]
+    sha256 = "8f1698ebe6a4f81d5e230779863e6c2869281e2084fc8e44e9e4ac0d373eebff"
+    url = "https://github.com/JuliaBinaryWrappers/PulseAudio_jll.jl/releases/download/PulseAudio-v14.2.0+0/PulseAudio.v14.2.0.powerpc64le-linux-gnu.tar.gz"
+[[PulseAudio]]
+arch = "x86_64"
+git-tree-sha1 = "29d0f0de3d0b915c753ed681b7e8fff1c52184f9"
+libc = "glibc"
+os = "linux"
+
+    [[PulseAudio.download]]
+    sha256 = "0c238b50ca2d0428836295ceda82660f56e55fd9ad0112d505948218bcc7a01c"
+    url = "https://github.com/JuliaBinaryWrappers/PulseAudio_jll.jl/releases/download/PulseAudio-v14.2.0+0/PulseAudio.v14.2.0.x86_64-linux-gnu.tar.gz"
+[[PulseAudio]]
+arch = "x86_64"
+git-tree-sha1 = "44baff4b5c41e40a0e6c4b3227c3b2710fb683c4"
+libc = "musl"
+os = "linux"
+
+    [[PulseAudio.download]]
+    sha256 = "2586be28d3e307263a40353219becf78d0466c4d21fe37b70c6ae76fa3dfdc29"
+    url = "https://github.com/JuliaBinaryWrappers/PulseAudio_jll.jl/releases/download/PulseAudio-v14.2.0+0/PulseAudio.v14.2.0.x86_64-linux-musl.tar.gz"
