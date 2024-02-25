@@ -3,7 +3,6 @@ export libalsa_util, libbluez5_util, libcli, liboss_util, libprotocol_cli, libpr
 
 using alsa_jll
 using BlueZ_jll
-using Check_jll
 using Dbus_jll
 using eudev_jll
 using FFTW_jll
@@ -112,7 +111,7 @@ JLLWrappers.@declare_executable_product(pactl)
 JLLWrappers.@declare_executable_product(pasuspender)
 JLLWrappers.@declare_executable_product(pulseaudio)
 function __init__()
-    JLLWrappers.@generate_init_header(alsa_jll, BlueZ_jll, Check_jll, Dbus_jll, eudev_jll, FFTW_jll, Gdbm_jll, Glib_jll, GStreamer_jll, libsndfile_jll, libasyncns_jll, libcap_jll, Libiconv_jll, Libtool_jll, OpenSSL_jll, SBC_jll, SoXResampler_jll, SpeexDSP_jll)
+    JLLWrappers.@generate_init_header(alsa_jll, BlueZ_jll, Dbus_jll, eudev_jll, FFTW_jll, Gdbm_jll, Glib_jll, GStreamer_jll, libsndfile_jll, libasyncns_jll, libcap_jll, Libiconv_jll, Libtool_jll, OpenSSL_jll, SBC_jll, SoXResampler_jll, SpeexDSP_jll)
     JLLWrappers.@init_library_product(
         libalsa_util,
         "lib/pulse-15.0/modules/libalsa-util.so",

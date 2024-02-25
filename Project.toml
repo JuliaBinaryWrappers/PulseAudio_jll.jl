@@ -1,14 +1,12 @@
 name = "PulseAudio_jll"
 uuid = "02771fc1-bdb7-5db5-8d11-300768e00fbd"
-version = "15.0.0+0"
+version = "15.0.1+0"
 
 [deps]
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 eudev_jll = "35ca27e7-8b34-5b7f-bca9-bdc33f59eb06"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 alsa_jll = "45378030-f8ea-5b20-a7c7-1a9d95efb90e"
 FFTW_jll = "f5851436-0d7a-5f13-b9de-f02708fd171a"
-Check_jll = "491db154-c145-5abe-9c32-446728d60cce"
 SpeexDSP_jll = "f2f9631b-9a4e-5b48-9975-88f638ec36a7"
 libsndfile_jll = "5bf562c0-5a39-5b4f-b979-f64ac885830c"
 SBC_jll = "da37f231-8920-5702-a09a-bdd970cb6ddc"
@@ -28,5 +26,8 @@ BlueZ_jll = "471b5b61-da80-5748-8755-67d5084d21f2"
 
 [compat]
 JLLWrappers = "1.2.0"
-julia = "1.0"
+julia = "1.6"
+OpenSSL_jll = "3.0.8"
+Libdl = "1"
 Glib_jll = "2.68.1"
+Artifacts = "1"
